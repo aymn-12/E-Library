@@ -8,7 +8,7 @@ import java.util.List;
 
 class ELibrarySystem extends JFrame {
 
-    // Modern Color Palette
+    
     private static final Color PRIMARY_COLOR = new Color(37, 99, 235);
     private static final Color PRIMARY_DARK = new Color(29, 78, 216);
     private static final Color PRIMARY_LIGHT = new Color(59, 130, 246);
@@ -23,7 +23,7 @@ class ELibrarySystem extends JFrame {
     private static final Color BORDER_COLOR = new Color(226, 232, 240);
     private static final Color HOVER_BG = new Color(241, 245, 249);
 
-    // Fonts
+   
     private static final Font HEADER_FONT;
     private static final Font TITLE_FONT;
     private static final Font BODY_FONT;
@@ -46,7 +46,7 @@ class ELibrarySystem extends JFrame {
     private CardLayout cardLayout;
     private JPanel mainPanel;
 
-    // متغير عام للوحة المكتبة لتحديثها لاحقاً
+
     private JPanel libraryListPanel;
 
     private List<Book> allBooks;
